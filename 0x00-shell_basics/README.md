@@ -9,3 +9,5 @@ This directory contains basic shell manipulation scripts
 4. 3-listfiles: A script that display current directory contents in a long format.
 
 5. 4-listmorefiles: A script that display current directory contents, including hidden files (starting with .). Use the long format.
+
+6. 5-listfilesdigitonly: A script that Display current directory contents in Long format with user and group IDs displayed numerically And hidden files (starting with .)
