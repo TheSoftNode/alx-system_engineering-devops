@@ -12,4 +12,6 @@ This directory contains basic shell manipulation scripts
 
 6. 5-listfilesdigitonly: A script that Display current directory contents in Long format with user and group IDs displayed numerically And hidden files (starting with .)
 
-7. 6-firstdirectory: A script thatcreates a directory named my_first_directory in the /tmp/ directory.
+7. 6-firstdirectory: A script that creates a directory named my_first_directory in the /tmp/ directory.
+
+8. 7-movethatfile: A script that Move the file betty from /tmp/ to /tmp/my_first_directory.
