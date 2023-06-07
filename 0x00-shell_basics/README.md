@@ -19,3 +19,5 @@ This directory contains basic shell manipulation scripts
 9. 8-firstdelete: A script that Delete the file betty. The file betty is in /tmp/my_first_directory
 
 10. 9-firstdirdeletion: A script that Delete the directory my_first_directory that is in the /tmp directory.
+
+11. 10-back: A script that changes the working directory to the previous one.
