@@ -17,3 +17,5 @@ This directory contains basic shell manipulation scripts
 8. 7-movethatfile: A script that Move the file betty from /tmp/ to /tmp/my_first_directory.
 
 9. 8-firstdelete: A script that Delete the file betty. The file betty is in /tmp/my_first_directory
+
+10. 9-firstdirdeletion: A script that Delete the directory my_first_directory that is in the /tmp directory.
