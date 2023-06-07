@@ -1,5 +1,2 @@
 #!/bin/sh
-
-# The command below prints the current working directory
-
 pwd
