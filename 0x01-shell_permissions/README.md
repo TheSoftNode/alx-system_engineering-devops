@@ -33,3 +33,5 @@ This is the shell permission project
 16. 101-symbolic_link_permissions: A script that changes the owner and the group owner of _hello to vincent and staff respectively.
 
 17. 102-if_only: A script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
+
+18. 103-Star_Wars: A script that will play the StarWars IV episode in the terminal.
