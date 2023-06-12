@@ -7,3 +7,4 @@ This project contains shell_redirections scripts
 5. 4-lastlines: A script that displays the last 10 lines of /etc/passwd.
 6. 5-firstlines: A script that displays the first 10 lines of /etc/passwd.
 7. 6-third_line: A script that displays the third line of the file iacta.
+8. 7-file: A script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
