@@ -8,3 +8,5 @@ This project contains shell_redirections scripts
 6. 5-firstlines: A script that displays the first 10 lines of /etc/passwd.
 7. 6-third_line: A script that displays the third line of the file iacta.
 8. 7-file: A script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+9. ls_cwd_content: A script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
+10. 
