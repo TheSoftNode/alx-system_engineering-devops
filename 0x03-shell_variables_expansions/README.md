@@ -12,3 +12,4 @@ This is the shell expansion projects and tasks
 10. 9-divide_and_rule: A script that prints the result of POWER divided by DIVIDE, followed by a new line.
 11. 10-love_exponent_breath: A script that displays the result of BREATH to the power LOVE.
 12. 11-binary_to_decimal: A script that converts a number from base 2 to base 10.
+13. 12-combinations: A script that prints all possible combinations of two letters, except oo.
