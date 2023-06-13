@@ -14,4 +14,6 @@ This project contains shell_redirections scripts
 12. 11-directories: A script that counts the number of directories and sub-directories in the current directory.
 13. 12-newest_files: Create a script that displays the 10 newest files in the current directory.
 14. 13-unique: A script that takes a list of words as input and prints only words that appear exactly once.
-15. 14-findthatword: A script that displays lines containing the pattern “root” from the file /etc/passwd 
+15. 14-findthatword: A script that displays lines containing the pattern “root” from the file /etc/passwd.
+16. 15-countthatword: A script that displays the number of lines that contain the pattern “bin” in the file /etc/passwd.
+17.  
