@@ -13,4 +13,5 @@ This project contains shell_redirections scripts
 11.  10-no_more_js: A script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 12. 11-directories: A script that counts the number of directories and sub-directories in the current directory.
 13. 12-newest_files: Create a script that displays the 10 newest files in the current directory.
-14. 13-unique: A script that takes a list of words as input and prints only words that appear exactly once. 
+14. 13-unique: A script that takes a list of words as input and prints only words that appear exactly once.
+15. 14-findthatword: A script that displays lines containing the pattern “root” from the file /etc/passwd 
