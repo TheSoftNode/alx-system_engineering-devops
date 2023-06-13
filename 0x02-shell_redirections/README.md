@@ -22,4 +22,5 @@ This project contains shell_redirections scripts
 20. 19-AZ: A script that replaces all characters A and c from input to Z and e respectively.
 21. 20-hiago: A script that removes all letters c and C from input.
 22. 21-reverse: A script that reverses its input.
-23.   
+23. 22-users_and_homes: A script that displays all users and their home directories, sorted by users.
+24. 
