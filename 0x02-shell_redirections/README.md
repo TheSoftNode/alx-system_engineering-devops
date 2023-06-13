@@ -18,4 +18,4 @@ This project contains shell_redirections scripts
 16. 15-countthatword: A script that displays the number of lines that contain the pattern “bin” in the file /etc/passwd.
 17. 16-whatsnext: A script that displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 18. 17-hidethisword: A script that displays all the lines in the file /etc/passwd that do not contain the pattern “bin”.
-19.  
+19.  18-letteronly: A scripts tha displays all lines of the file /etc/ssh/sshd_config starting with a letter.
