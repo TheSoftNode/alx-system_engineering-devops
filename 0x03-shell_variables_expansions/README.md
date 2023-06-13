@@ -5,3 +5,4 @@ This is the shell expansion projects and tasks
 3. 2-path: A script that adds /action to the PATH.
 4. 3-path: A script that counts the number of directories in the PATH.
 5. 4-global_variables: A  script that lists environment variables.
+6. 5-local_variables: A script that lists all local variables and environment variables, and functions.
