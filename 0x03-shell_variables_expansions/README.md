@@ -10,3 +10,4 @@ This is the shell expansion projects and tasks
 8. 7-create_global_variable: A script that creates a new global variable. Name: BEST, Value: School.
 9. 8-true_knowledge: A script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 10. 9-divide_and_rule: A script that prints the result of POWER divided by DIVIDE, followed by a new line.
+11. 10-love_exponent_breath: A script that displays the result of BREATH to the power LOVE.
