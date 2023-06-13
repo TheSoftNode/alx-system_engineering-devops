@@ -16,4 +16,5 @@ This project contains shell_redirections scripts
 14. 13-unique: A script that takes a list of words as input and prints only words that appear exactly once.
 15. 14-findthatword: A script that displays lines containing the pattern “root” from the file /etc/passwd.
 16. 15-countthatword: A script that displays the number of lines that contain the pattern “bin” in the file /etc/passwd.
-17.  
+17. 16-whatsnext: A script that displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+18. 
