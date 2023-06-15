@@ -24,4 +24,5 @@ This project contains shell_redirections scripts
 22. 21-reverse: A script that reverses its input.
 23. 22-users_and_homes: A script that displays all users and their home directories, sorted by users.
 24. 100-empty_casks: A script that finds all empty files and directories in the current directory and all sub-directories.
-25. 101-gifs: A  script that lists all the files with a .gif extension in the current directory and all its sub-directories. 
+25. 101-gifs: A  script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+26. 102-acrostic: A script that decodes acrostics that use the first letter of each line. 
