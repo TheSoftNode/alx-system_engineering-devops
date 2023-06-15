@@ -23,4 +23,4 @@ This project contains shell_redirections scripts
 21. 20-hiago: A script that removes all letters c and C from input.
 22. 21-reverse: A script that reverses its input.
 23. 22-users_and_homes: A script that displays all users and their home directories, sorted by users.
-24. 
+24. 100-empty_casks: A script that finds all empty files and directories in the current directory and all sub-directories. 
