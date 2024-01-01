@@ -1,3 +1,3 @@
-#Configuration management
+# Configuration management
 
 using pupet for configuration management
