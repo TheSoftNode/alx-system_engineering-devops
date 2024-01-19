@@ -1,26 +1,36 @@
 #!/usr/bin/env bash
-#installing and configuring HAProxy for load balancing
+# This script install and configure HAProxy on lb-01 server
+# Configures HAProxy to send traffic to web-01 and web-02 servers
+# ROundrobin algorithm is used to distribute request
+# Ensure that HAProxy can be managed via an init script
 
-sudo apt-get update
-sudo apt-get -y install --no-install-recommends software-properties-common
-sudo add-apt-repository ppa:vbernat/haproxy-2.4
-sudo apt-get -y install haproxy=2.4.\*
 
-theoconfig=\
-"
-backend Theophilus-back
-        mode http
-        balance roundrobin
-        server 419439-web-01 100.26.168.71:80 check
-        server 419439-web-02 54.237.22.41:80 check
-frontend Theophilus-front
-        bind *:80
-        mode http
-        default_backend musoye-back
-"
-sudo echo "$musconfig" >> /etc/haproxy/haproxy.cfg
-if [ "$(pgrep -c haproxy)" -le 0 ]; then
-	sudo service haproxy start
+CONFIG_FILE="/etc/haproxy/haproxy.cfg"
+
+# backup config file
+sudo cp "$CONFIG_FILE" "CONFIG_FILE.bak"
+
+# update and install HAProxy
+sudo apt-get -y update
+sudo apt-get install -y haproxy
+
+# Configure HAproxy so that it send traffic to web-01 and web-02
+sudo tee "$CONFIG_FILE" > /dev/null <<EOF
+frontend front
+    bind *:80
+    default_backend back
+
+backend back
+    balance roundrobin
+    server web1 100.26.156.143:80 check
+    server web2 35.153.192.8:80 check
+EOF
+
+# enable haproxy to be started by init script
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+
+if sudo service haproxy restart; then
+        echo "Configuratuin succesful"
 else
-	sudo sevice haproxy restart
+        echo "Error restarting"
 fi
