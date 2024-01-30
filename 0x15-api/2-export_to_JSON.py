@@ -9,7 +9,7 @@ if __name__ == "__main__":
     try:
         id = argv[1]
         is_int = int(id)
-    except:
+    except ValueError:
         exit()
 
     url_user = "https://jsonplaceholder.typicode.com/users?id=" + id
